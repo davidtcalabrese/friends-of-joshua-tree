@@ -70,6 +70,7 @@ table thead th {
 }
 h3 { margin-bottom: 1rem; }
 .other-contacts p {
+    background-color: #edf8ef;
     background-image: url(/static/images/paper-texture-background.jpg);
     background-position: center;
     color: #000;
@@ -123,6 +124,7 @@ input, textarea {
     outline: 0;
     width: 260px;
     margin-top: 2px;
+    background-color: #edf8ef;
     background-image: url(/static/images/paper-texture-background.jpg);
     background-position: left center;
 }

@@ -85,7 +85,6 @@ h3 {
 .fa-bars { transition: transform .3s ease-in;  }
 .fa-bars:hover { transform: rotate(-90deg); }
 /* -----------------------------------  header styles   ------------------------------------*/
-/* header {background-color: var(--sky-blue); } */
 header {background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141, 247) 100%);
 }
  .title-container {

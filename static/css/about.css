@@ -1,0 +1,36 @@
+/*--------------------------------------------------------------------------------------------    
+    Author: David Calabrese                     Date: 04/20/2021
+--------------------------------------------------------------------------------------------*/
+/* prettier-ignore */
+/* ------------------------------------   layout   ----------------------------------*/
+body { background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(237,237,237,1) 83%,rgba(243,243,243,1) 97%,rgba(243,243,243,1) 97%,rgba(255,255,255,1) 100%);
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content { padding: 1em; }
+li { list-style: none;}
+/* h2, .main-content p, .main-content li { color: white; } */
+.circle {
+    width: auto;
+    max-width: 150px;
+    /* not fully supported */
+    shape-outside: circle(50%);
+    margin: 10px;
+    float: left;
+}
+.future img { float: right; }
+.section { align-self: center;  }
+
+/* ------------------------------------   Media queries   ----------------------------------*/
+@media screen and (min-width: 600px) { .circle { max-width: 200px; } }
+@media screen and (min-width: 800px) { .circle { max-width: 250px; } }
+@media screen and (min-width: 1000px) { .circle { max-width: 300px; } }
+@media screen and (min-width: 1200px) { .circle { max-width: 350px; } }
+@media screen and (min-width: 1400px) { .circle { max-width: 400px; } }
+@media screen and (min-width: 1600px) { .circle { max-width: 450px; } }
+
+
+

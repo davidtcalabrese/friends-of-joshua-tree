@@ -55,7 +55,11 @@ main {
     color: #fff;
     background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141, 247) 100%)
 }
-.yoga p { text-align: center;}
+.yoga p { 
+    text-align: center;
+    position: absolute;
+}
+.yoga img { height: 100%; }
 
 /* ------------------------------------- Form styles ---------------------------------------*/
 .form-wrapper {

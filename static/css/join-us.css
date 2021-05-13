@@ -44,7 +44,7 @@ main {
 .benefits ul { margin-bottom: 20px; }
 .yoga {
     background-color: #edf8ef;
-    background-image: url(/static/images/Yoga-Joshua-Tree-National-Park-15.jpg);
+    /* background-image: url(/static/images/Yoga-Joshua-Tree-National-Park-15.jpg); */
     height: 500px;
     background-size: cover;
     background-position: bottom center;
@@ -53,6 +53,7 @@ main {
     align-items: flex-end;
     justify-content: center;
     color: #fff;
+    background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141, 247) 100%)
 }
 .yoga p { text-align: center;}
 

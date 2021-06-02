@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     background-color: #e5e5f7;
-    opacity: 0.8;
+    opacity: 1;
     background-image:  linear-gradient(135deg, #ceb007 25%, transparent 25%), 
                     linear-gradient(225deg, #aab32e 25%, transparent 25%), 
                     linear-gradient(45deg, #a4c418 25%, transparent 25%), 
@@ -19,18 +19,43 @@
     background-repeat: repeat;
 }
 .frame {
-    flex: 1 1 300px;
-    margin: 5px;
+  flex: 1 1 300px;
+  margin: 5px;
 }
-.frame img{
-    box-shadow: 6px 6px 8px 0px rgba(0,0,0,0.3); 
-    width: 100%;
-    transition: 1s ease;
+.frame img {
+  box-shadow: 6px 6px 8px 0px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  transition: filter 0.45s, opacity 0.45s;
 }
-.frame img:hover { transform: scale(1.1); }
+.gallery:hover a {
+    filter: blur(3px);
+    opacity: 0.55;
+}
+.gallery a {
+    transition: filter .45s, opacity 0.45s;
+}
+.gallery:hover a:hover {
+    filter: blur(0px);
+    opacity: 1;
+}
+
+
+
 
 /* ------------------------------------   Media queries   ------------------------------------
 --------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 600px) { .frame { flex: 1 1 calc(49% - 5px); } }
-@media screen and (min-width: 900px) { .frame { flex: 1 1 calc(32% - 5px); } }
-@media screen and (min-width: 1200px) { .frame { flex: 1 1 calc(24% - 5px); } }
+@media screen and (min-width: 600px) {
+  .frame {
+    flex: 1 1 calc(49% - 5px);
+  }
+}
+@media screen and (min-width: 900px) {
+  .frame {
+    flex: 1 1 calc(32% - 5px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .frame {
+    flex: 1 1 calc(24% - 5px);
+  }
+}

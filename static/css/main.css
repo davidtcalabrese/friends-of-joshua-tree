@@ -111,7 +111,20 @@ footer address, footer p { font-style: italic; }
     margin: 0 10px;
     height: 0;
     width: 0;
+    color: var(--shrub-green)
  }
+ a i { color: var(--red-orange);}
+a i:hover { color: var(--sky-blue)}
+.logo-container {
+    position: relative;
+    top: -70px;
+    right: -90px;
+}
+ .dc-logo { 
+    position: absolute;
+    right: -300px;
+    width: 70px;
+}
 /*------------------------------------   Typography    -------------------------------------*/
 body { font-family: 'Karla', sans-serif; }
 h1, h2, h3, h4 { font-family: 'Spectral', serif; }

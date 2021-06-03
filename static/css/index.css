@@ -30,11 +30,7 @@
     align-items: center;
     margin-bottom: -55px;
     justify-content: space-evenly;
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
-                                        rgba(237,237,237,1) 83%,
-                                        rgba(243,243,243,1) 97%,
-                                        rgba(243,243,243,1) 97%,
-                                        rgba(255,255,255,1) 100%);
+    background: var(--light-gradient);
 
 }
 .content h2, .content p, .support h2, .support p { color: #000; }

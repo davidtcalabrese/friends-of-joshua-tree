@@ -2,11 +2,8 @@
     Author: David Calabrese                     Date: 04/20/2021
 --------------------------------------------------------------------------------------------*/
 /* prettier-ignore */
-body { background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
-                                            rgba(237,237,237,1) 83%,
-                                            rgba(243,243,243,1) 97%,
-                                            rgba(243,243,243,1) 97%,
-                                            rgba(255,255,255,1) 100%);
+body { 
+    background: var(--light-gradient);
 }
 /* ------------------------------------   table styles   ----------------------------------*/
 .wrapper-inner {

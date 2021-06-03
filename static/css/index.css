@@ -36,10 +36,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     background: var(--light-gradient);
 
 }
-.content h2, .content p, .support h2, .support p { color: #000; }
-.subtitle { 
-    margin-top: 1.5rem;
-}
+.subtitle {  margin-top: 1.5rem; }
 /* ---------------------------   support styles  -----------------------------*/
 .support {
     background: var(--yellow-gradient); 
@@ -48,6 +45,10 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     justify-content: flex-start;
     align-items: center;
     margin: 0;
+}
+.support h2 { 
+    font-family: 'Karla', 'serif';
+    font-size: 1.9rem;
 }
 /* --------------------------   sidebar styles  ------------------------------*/
 .sidebar {
@@ -107,7 +108,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
 } 
 .frame h2 {
     bottom: 22%;
-    font-size: 2.5em;
+    font-size: 2em;
 }           
 /* ----------------------------  Testimonials ----------------------------------
 ------------------------------------------------------------------------------*/

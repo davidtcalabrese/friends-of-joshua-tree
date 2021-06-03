@@ -139,16 +139,16 @@ a i:hover { color: var(--sky-blue)}
 }
 /*-----------------------------   Typography    ------------------------------*/
 body { font-family: 'Karla', sans-serif; }
-h1, h2, h3, h4 { 
+h1, h2 { 
     font-family: 'Bevan', cursive;
-    font-size: .8rem;
+    letter-spacing: 3px;
  }
-h2 { font-size: 1.3rem; }
-h3 { font-size: 1.2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
 .title h1 {
     text-align: center;
     margin-right: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 address, p { 
     font-size: 1.125rem;
@@ -160,8 +160,7 @@ a:active { color: var(--desert-gold);}
 
 /* -----------------------------   Media queries   -----------------------------
 ------------------------------------------------------------------------------*/
-/* * 768px */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 800px) {
 /* -------------------------------   navbar   --------------------------------*/
     .navbar { display: flex; }
     .navbar-toggle { visibility: hidden; }
@@ -186,7 +185,7 @@ a:active { color: var(--desert-gold);}
         margin: 10px;
         display: inline;
     }
-    .title h1 {font-size: 2rem; }
+    .title h1 {font-size: 1.3rem; }
 /*-------------------------------- footer ------------------------------------*/
     .footer {font-size: 1.2rem; }
     .logo-container { 
@@ -196,11 +195,22 @@ a:active { color: var(--desert-gold);}
     }
     .dc-logo { width: 100px; }
 }
-/* * 880px */
-@media screen and (min-width: 55rem) {
-    html {font-size: .9rem; }
+
+@media screen and (min-width: 600px) {
+    html {font-size: 1.3rem; }
 }
-/* * 1100px */
-@media screen and (min-width: 69rem) {
-    .title h1 {font-size: 2rem; }
+
+
+@media screen and (min-width: 1040px) {
+    .title h1 {
+        font-size: 1.7rem;
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (min-width: 82rem) {
+    .title h1 {
+        font-size: 2.2rem;
+        letter-spacing: 6px;
+    }
 }

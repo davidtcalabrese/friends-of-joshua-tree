@@ -41,10 +41,13 @@ table thead th {
     font-weight: bold;
 }
 table a { color: #000; }
-.h3-wrapper h3 {
-    font-style: bold; 
+
+h3 {
+    font-family: bevan;
     color: transparent;
-    background: var(--yellow-gradient);
+    background: linear-gradient(
+    to bottom, rgb(144, 163, 247) 0%,
+    rgb(84, 141, 247) 100%);
     -webkit-background-clip: text;
     background-clip: text;
 }

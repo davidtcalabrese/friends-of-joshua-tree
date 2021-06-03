@@ -4,6 +4,8 @@ Author: David Calabrese \_,` | \-'  /   )`-')
 Date: 04/20/2021         "") `"` DC  \  ((`"`
                         ___Y  ,    .'7 /|
 * ******************** (_,___/...-` (_/_/   ***********************************/
+
+
 /* prettier-ignore */
 body { 
     background: var(--light-gradient);
@@ -23,20 +25,28 @@ body {
 }
 table {
     font-family: Georgia, serif;
-    background-color: var(--dark-charcoal);
+    background-color: var(--light-gradient);
     width: 100%;
     text-align: center;
-    color: white;
-    max-width: 800px;
+    color: #000;
+    max-width: 900px;
     margin: 0 auto;
 }
 table td, table th { padding: 10px 4px; }
 table tbody td { font-size: .9rem; }
-table tbody tr:nth-child(even) {background-color: var(--darkish-charcoal);}
-table thead { background: var(--dark-red);}
+table tbody tr:nth-child(even) {background-color: #efefef;}
+table thead { background: var(--yellow-gradient); }
 table thead th {
     font-size: 1.4rem;
     font-weight: bold;
+}
+table a { color: #000; }
+.h3-wrapper h3 {
+    font-style: bold; 
+    color: transparent;
+    background: var(--yellow-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 /* ------------------------   other contacts and form   ----------------------*/
 .contacts-and-form-wrapper {  
@@ -192,6 +202,7 @@ input:required + label::after {
         justify-content: space-around;
      }
      .other-contacts, .form-wrapper { padding: 0; }
-     .form-wrapper {margin-right: 4em; }
+     .other-contacts { margin-left: 1.5rem; }
+     .form-wrapper {margin-right: 6em; }
      h2 { margin-bottom: 0; }
 }

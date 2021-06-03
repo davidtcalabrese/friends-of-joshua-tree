@@ -4,6 +4,8 @@ Author: David Calabrese \_,` | \-'  /   )`-')
 Date: 04/20/2021         "") `"` DC  \  ((`"`
                         ___Y  ,    .'7 /|
 * ******************** (_,___/...-` (_/_/   ***********************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Bevan');
+
 /* prettier-ignore */
 :root {
     --sky-blue: #6a9ed8;
@@ -19,6 +21,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
                                                  rgb(206, 212, 240) 83%,
                                                  rgb(211, 208, 250) 95%,
                                                  rgb(214, 204, 250) 97%);
+    --yellow-gradient: linear-gradient(to left, #ede574, #e1f5c4);
 }
 * {
     box-sizing: border-box;
@@ -136,12 +139,16 @@ a i:hover { color: var(--sky-blue)}
 }
 /*-----------------------------   Typography    ------------------------------*/
 body { font-family: 'Karla', sans-serif; }
-h1, h2, h3, h4 { font-family: 'Spectral', serif; }
-h2 { font-size: 2rem; }
+h1, h2, h3, h4 { 
+    font-family: 'Bevan', cursive;
+    font-size: .8rem;
+ }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.2rem; }
 .title h1 {
     text-align: center;
     margin-right: 10px;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 address, p { 
     font-size: 1.125rem;
@@ -179,7 +186,7 @@ a:active { color: var(--desert-gold);}
         margin: 10px;
         display: inline;
     }
-    .title h1 {font-size: 2.25rem; }
+    .title h1 {font-size: 2rem; }
 /*-------------------------------- footer ------------------------------------*/
     .footer {font-size: 1.2rem; }
     .logo-container { 
@@ -191,9 +198,9 @@ a:active { color: var(--desert-gold);}
 }
 /* * 880px */
 @media screen and (min-width: 55rem) {
-    html {font-size: 1.125rem; }
+    html {font-size: .9rem; }
 }
 /* * 1100px */
 @media screen and (min-width: 69rem) {
-    .title h1 {font-size: 3rem; }
+    .title h1 {font-size: 2rem; }
 }

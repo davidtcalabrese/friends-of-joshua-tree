@@ -1,6 +1,9 @@
-/*--------------------------------------------------------------------------------------------    
-    Author: David Calabrese                     Date: 04/20/2021
---------------------------------------------------------------------------------------------*/
+/*  ************************ ___ ***********************************************
+                         __/_  `.  .-"'"-.
+Author: David Calabrese \_,` | \-'  /   )`-')
+Date: 04/20/2021         "") `"` DC  \  ((`"`
+                        ___Y  ,    .'7 /|
+* ******************** (_,___/...-` (_/_/   ***********************************/
 /* prettier-ignore */
 :root {
     --sky-blue: #6a9ed8;
@@ -12,9 +15,9 @@
     --dark-charcoal: #332824;
     --darkish-charcoal: #3d3633;
     --light-gradient: linear-gradient(to bottom, rgb(233, 232, 250) 0%,
-    rgb(196, 202, 235) 83%,
-    rgb(195, 190, 241) 95%,
-    rgb(208, 201, 245) 97%);
+                                                 rgb(196, 202, 235) 83%,
+                                                 rgb(195, 190, 241) 95%,
+                                                 rgb(208, 201, 245) 97%);
 }
 * {
     box-sizing: border-box;
@@ -39,7 +42,7 @@ h3 {
     margin: 1em auto 0 auto;
     position: relative;
 }
-/*-----------------------------------   navbar styles   ------------------------------------*/
+/*----------------------------   navbar styles   -----------------------------*/
 .navbar {
     font-size: 1.125rem;
     padding-bottom: 10px;
@@ -88,8 +91,11 @@ h3 {
 }
 .fa-bars { transition: transform .3s ease-in;  }
 .fa-bars:hover { transform: rotate(-90deg); }
-/* -----------------------------------  header styles   ------------------------------------*/
-header {background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141, 247) 100%);
+
+/* ----------------------------  header styles   -----------------------------*/
+header {background: linear-gradient(
+    to bottom, rgb(132, 218, 245) 0%,
+    rgb(84, 141, 247) 100%);
 }
  .title-container {
     position: relative;
@@ -101,7 +107,7 @@ header {background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141
 .logo { display: none; }
 .logo img { width: 100px; }
 
-/*-----------------------------------  footer styles  --------------------------------------*/
+/*----------------------------  footer styles  -------------------------------*/
 .footer {
     background-color: var(--shrub-green);
     grid-area: ft;
@@ -110,7 +116,7 @@ header {background: linear-gradient(to bottom, rgb(132, 218, 245) 0%,rgb(84, 141
     align-items: center;
     color: #fff;
     position: relative;
-    font-size: .8rem;
+    font-size: .75rem;
 }
 footer address, footer p { font-style: italic; }
 .footer .social a { 
@@ -127,7 +133,7 @@ a i:hover { color: var(--sky-blue)}
  .dc-logo { 
     width: 50px;
 }
-/*------------------------------------   Typography    -------------------------------------*/
+/*-----------------------------   Typography    ------------------------------*/
 body { font-family: 'Karla', sans-serif; }
 h1, h2, h3, h4 { font-family: 'Spectral', serif; }
 h2 { font-size: 2rem; }
@@ -143,11 +149,12 @@ a {  color: #fff; }
 a:visited { color: var(--red-orange);} 
 a:hover { color: var(--sky-blue);} 
 a:active { color: var(--desert-gold);} 
-/* ------------------------------------   Media queries   ------------------------------------
---------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 48em) {
 
-/* --------------------------------------   navbar   ---------------------------------------*/
+/* -----------------------------   Media queries   -----------------------------
+------------------------------------------------------------------------------*/
+/* * 768px */
+@media screen and (min-width: 48em) {
+/* -------------------------------   navbar   --------------------------------*/
     .navbar { display: flex; }
     .navbar-toggle { visibility: hidden; }
     .nav-list { 
@@ -164,7 +171,7 @@ a:active { color: var(--desert-gold);}
         align-items: center;
         justify-content: center;
     }
-/* --------------------------------------   header   ---------------------------------------*/
+/* -------------------------------   header   --------------------------------*/
     .logo {
         position: absolute;
         left: 20px;
@@ -172,14 +179,19 @@ a:active { color: var(--desert-gold);}
         display: inline;
     }
     .title h1 {font-size: 2.25rem; }
-
-    footer { }
+/*-------------------------------- footer ------------------------------------*/
+    .footer {font-size: 1.2rem; }
+    .dc-logo { 
+        width: 100px; 
+        position: relative;
+        top: 20px;
+    }
 }
-/* * around 880px */
+/* * 880px */
 @media screen and (min-width: 55rem) {
     html {font-size: 1.125rem; }
 }
-/* * around 1100px */
+/* * 1100px */
 @media screen and (min-width: 69rem) {
     .title h1 {font-size: 3rem; }
 }

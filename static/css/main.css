@@ -14,10 +14,11 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     --shrub-green: #444c24;
     --dark-charcoal: #332824;
     --darkish-charcoal: #3d3633;
-    --light-gradient: linear-gradient(to bottom, rgb(233, 232, 250) 0%,
-                                                 rgb(196, 202, 235) 83%,
-                                                 rgb(195, 190, 241) 95%,
-                                                 rgb(208, 201, 245) 97%);
+    --light-gradient: linear-gradient(to bottom, rgb(255, 255, 255) 0%,
+                                                 rgb(214, 219, 247) 53%,
+                                                 rgb(206, 212, 240) 83%,
+                                                 rgb(211, 208, 250) 95%,
+                                                 rgb(214, 204, 250) 97%);
 }
 * {
     box-sizing: border-box;

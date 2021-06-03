@@ -6,7 +6,15 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
 * ******************** (_,___/...-` (_/_/   ***********************************/
 /* -----------------------------  Layout  ------------------------------------*/
 /* prettier-ignore */
+.wrapper-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer { width: 100%; }
 main { 
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: 

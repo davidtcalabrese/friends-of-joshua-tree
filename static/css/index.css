@@ -107,7 +107,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     font-size: 2.5em;    
 } 
 .frame h2 {
-    bottom: 22%;
+    bottom: 25%;
     font-size: 2.2em;
 }           
 /* ----------------------------  Testimonials ----------------------------------
@@ -221,12 +221,10 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
 }
 /* -----------------------------  Media Queries  -------------------------------
 ------------------------------------------------------------------------------*/
-/*  * 640px */
-@media screen and (min-width: 40rem) {
-    html { font-size: 18px;}
+@media screen and (min-width: 640px) {
     .frame h2 {
         bottom: 30%;
-        font-size: 3em;
+        font-size: 2.5em;
     }    
 }
 /* * 720px */

@@ -139,13 +139,14 @@ h2 {
                  -10px 20px 5px rgba(6, 12, 97, 0.05);
 }
 h3 { 
+    margin-top: .5em;
     text-align: center;
     font-size: 1.5rem;
 }
 .title h1 {
     text-align: center;
     margin-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 p { max-width: 700px; }
 
@@ -207,7 +208,7 @@ a:active { color: var(--desert-gold);}
     }
 }
 
-@media screen and (min-width: 82rem) {
+@media screen and (min-width: 1312px) {
     .title h1 {
         font-size: 2.2rem;
         letter-spacing: 6px;

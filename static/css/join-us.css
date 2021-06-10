@@ -10,7 +10,11 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    width: 100vw;
+    background: linear-gradient(to bottom,  rgb(56, 11, 138) 0%,
+    rgb(115, 23, 158) 39%,
+    rgb(104, 114, 202) 83%,
+    rgb(22, 87, 148) 100%);
 }
 .footer { width: 100%; }
 main { 
@@ -28,11 +32,10 @@ h2 { font-size: 1.3rem; }
     background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
                                         rgba(237,237,237,1) 83%,
                                         rgba(243,243,243,1) 97%,
-                                        rgba(243,243,243,1) 97%,
-                                        rgba(255,255,255,1) 100%);
+                                        rgb(255, 245, 245) 100%);
 
     grid-area: activities;
-    height: 430px;
+    /* height: 430px; */
 }
 .benefits, .activities {
     display: flex;
@@ -46,18 +49,18 @@ h2 { font-size: 1.3rem; }
 }
 .benefits {
     grid-area: benefits;
-    background: linear-gradient(to bottom,rgb(175, 207, 248) 0%,
-                                        rgb(156, 202, 249) 32%,
-                                        rgb(160, 199, 228) 49%,
+    background: linear-gradient(to bottom,rgb(200, 220, 247) 0%,
+                                        rgb(174, 210, 245) 32%,
+                                        rgb(167, 209, 241) 49%,
                                         rgb(172, 216, 247) 71%,
-                                        rgb(177, 204, 236) 100%);
+                                        rgb(175, 204, 240) 100%);
     display: flex;
 }
 .benefits ul { margin-bottom: 20px; }
 .yoga {
     background-color: #edf8ef;
-    /* background-image: url(/static/images/Yoga-Joshua-Tree-National-Park-15.jpg); */
-    height: 500px;
+    background-image: url(/static/images/Yoga-Joshua-Tree-National-Park-15.jpg);
+    height: auto;
     background-size: cover;
     background-position: bottom center;
     grid-area: img;
@@ -181,9 +184,8 @@ input[type="radio"], input[type="checkbox"] {
             "form benefits"
             "img  img";
     }
-    .activities { height: 480px; }
     .yoga {
         background-size: 100% auto;
-        max-width: 1500px;
+        /* max-width: 1500px; */
     }
 }

@@ -72,7 +72,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
 
 /* ------------------------------   ad styles  -------------------------------*/
 .ad {
-    height: 720px;
+    height: 850px;
     background-image: url(../images/Milkyway-Moonrise.jpg);
     background-size: cover;
     background-position: bottom left;
@@ -82,6 +82,10 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     color: #fff;
 }
 .ad h2 { margin: 20px; }
+.ad > p { 
+    margin-top: 2em;
+    font-size: 1.75em; 
+}
 
 /* ------------------------------  image styles  -----------------------------*/
 .frame {
@@ -227,14 +231,12 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
         font-size: 2.5em;
     }    
 }
-/* * 720px */
-@media screen and (min-width: 45rem) {
+@media screen and (min-width: 750px) {
     .sidebar { flex-direction: row; }
     .slide { height: 25rem; }
     .slider { height: 31rem; }
 }
-/* * 1248px */
-@media screen and (min-width: 78rem) {
+@media screen and (min-width: 1288px) {
     .wrapper-outer {
         grid-template-columns: repeat(8, 1fr);
         grid-template-areas:
@@ -252,7 +254,7 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
         flex-direction: column;
         justify-content: center;
     }
-    .ad { height: 970px;}
+    .ad { height: auto;}
     .support { justify-content: space-evenly; }
     .support h3 { font-size: 2rem; }
     .support p { max-width: 480px;}

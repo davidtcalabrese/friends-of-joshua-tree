@@ -17,11 +17,11 @@ Date: 04/20/2021         "") `"` DC  \  ((`"`
     --dark-charcoal: #332824;
     --darkish-charcoal: #3d3633;
     --light-gradient: linear-gradient(to bottom, rgb(255, 255, 255) 0%,
-                                                 rgb(214, 219, 247) 53%,
-                                                 rgb(206, 212, 240) 83%,
-                                                 rgb(211, 208, 250) 95%,
-                                                 rgb(214, 204, 250) 97%);
-    --yellow-gradient: linear-gradient(to left, #ede574, #e1f5c4);
+                                                 rgb(233, 235, 250) 53%,
+                                                 rgb(220, 225, 245) 83%,
+                                                 rgb(222, 221, 247) 95%,
+                                                 rgb(233, 230, 247) 97%);
+    --yellow-gradient: linear-gradient(to left, #fdf274, #f9fddb);
 }
 * {
     box-sizing: border-box;
